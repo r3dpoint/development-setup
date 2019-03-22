@@ -1,0 +1,15 @@
+#!/bin/bash
+#set -x
+set -euxo pipefail
+#set -euo pipefail
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install zsh
+brew tap heroku/brew && brew install heroku
+
+#https://www.wdiaz.org/how-to-install-nvm-with-homebrew/
+brew install nvm
+mkdir ~/.nvm
+
+
