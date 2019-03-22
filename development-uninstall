@@ -8,7 +8,13 @@ rm -rf ~/.nvm || true
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" || true
 
 sudo rm /usr/local/.com.apple.installer.keep || true
-sudo rm -rf /usr/local/share || true
+sudo rm -rf /usr/local/share/ || true
+sudo rm -rf /usr/local/bin/ || true
+sudo rm -rf /usr/local/libexec/ || true
+sudo rm -rf /usr/local/etc/ || true
+sudo rm -rf /usr/local/var/ || true
+sudo rm -rf /usr/local/lib/ || true
+sudo rm -rf /usr/local/share/ || true
 
 # https://apple.stackexchange.com/questions/308943/how-do-i-uninstall-the-command-line-tools-for-xcode
 sudo rm -rf  /Library/Developer/CommandLineTools || true
