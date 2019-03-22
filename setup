@@ -14,4 +14,4 @@ Development Setup
 "
 }
 
-echo_sharespost_banner | base64 --encode
+echo_sharespost_banner | base64
